@@ -21,17 +21,6 @@ C:\Users\Администратор\source\repos\ryle\ryle\obj\Debug\ryle.csproj
 C:\Users\Администратор\source\repos\ryle\ryle\obj\Debug\ryle.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\source\repos\ryle\ryle\obj\Debug\ryle.exe
 C:\Users\Администратор\source\repos\ryle\ryle\obj\Debug\ryle.pdb
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\MainWindow.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Admin.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Autor.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Manager.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Users.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\App.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle_Content.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle_MarkupCompile.cache
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle_MarkupCompile.lref
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.exe
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.pdb
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\ryle.exe.config
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\ryle.exe
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\ryle.pdb
@@ -40,21 +29,31 @@ C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\EntityFramew
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\EntityFramework.xml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\MainWindow.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Admin.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Autor.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\listviewmerch.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Manager.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\merches.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\tovari.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Users.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\App.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle_Content.g.cs
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle_MarkupCompile.cache
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle_MarkupCompile.lref
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\App.baml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\MainWindow.baml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Admin.baml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Autor.baml
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\listviewmerch.baml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Manager.baml
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\merches.baml
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\tovari.baml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\Users.baml
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.g.resources
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.Properties.Resources.resources
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.csproj.GenerateResource.cache
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.csproj.CoreCompileInputs.cache
 C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.csproj.CopyComplete
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\merches.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\merches.baml
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\listviewmerch.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\listviewmerch.baml
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\tovari.g.cs
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\Pages\tovari.baml
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.csproj.AssemblyReference.cache
-C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\App.baml
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.exe
+C:\Users\erosh\OneDrive\Рабочий стол\ryle\ryle\obj\Debug\ryle.pdb

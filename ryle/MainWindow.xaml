@@ -17,7 +17,8 @@
         </Border>
         <TextBlock Text="ООО-бАРАНКА" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30"></TextBlock>
         <Image Source="/Res/logo.png" HorizontalAlignment="Left" />
-        <Button  Content="Авторизация" HorizontalAlignment="Right" Margin="0,27,10,0" VerticalAlignment="Top"  Click="OpenAutor" Height="43"/>
+        <Button x:Name="time"  Content="Авторизация" HorizontalAlignment="Right" Margin="0,27,10,0" VerticalAlignment="Top"  Click="OpenAutor" Height="43"/>
+        <TextBlock x:Name="TimerTextBlock" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="0"/>
 
         <StackPanel Grid.Row="1">
             <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"> Регистрация</TextBlock>
@@ -29,6 +30,7 @@
             <PasswordBox x:Name="proof" VerticalAlignment="Center" HorizontalAlignment="Center" Width="162" Height="25"></PasswordBox >
             <Button Background="Aqua" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Margin="0,30,0,0" Height="35" FontWeight="Bold" Click="regClick">Зарегистрироваться</Button>
             <Button Background="Aqua" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Width="162" Height="35" FontWeight="Bold" Margin="0,10,0,0" Click="tovariClick">Каталог товаров</Button>
+            <Button Background="Aqua" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Width="162" Height="35" FontWeight="Bold" Margin="0,10,0,0" Click="lvClick">LV</Button>
 
         </StackPanel>
 

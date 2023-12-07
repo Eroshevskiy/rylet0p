@@ -32,5 +32,10 @@ namespace ryle.Pages
             this.Visibility = Visibility.Hidden;
             autor.Show();
         }
+
+        private void obnovClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

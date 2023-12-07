@@ -13,5 +13,6 @@ namespace ryle
     /// </summary>
     public partial class App : Application
     {
+        public static bool IsGone;
     }
 }

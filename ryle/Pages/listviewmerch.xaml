@@ -15,6 +15,7 @@
             </RowDefinition>
         </Grid.RowDefinitions>
         <Button FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Aqua" FontWeight="Bold" Grid.Row="1" Click="vihodClick" >Выйти</Button>
+        <Button FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Left" Background="Aqua" FontWeight="Bold" Grid.Row="1" Click="obnovClick" >Обновить</Button>
         <ListView x:Name="lv" Grid.Row="0">
             <ListView.ItemTemplate>
                 <DataTemplate>

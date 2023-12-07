@@ -19,8 +19,9 @@ namespace ryle.Models
             if (context == null)
                 context = new ryleEntities1();
             return context;
-        }
 
+        }
+        public static users CurrentUser = null;
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace ryle
 {
@@ -21,10 +22,50 @@ namespace ryle
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int sessionTimeInMinutes = 3600;
+        private int remainingTimeInSeconds;
+        private DispatcherTimer timer;
         public MainWindow()
         {
             InitializeComponent();
             Classes.dbconnect.modeldb = new Models.ryleEntities1();
+            InitializeTimer();
+        }
+        private void InitializeTimer()
+        {
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += Timer_Tick;
+            StartSessionTimer();
+        }
+
+        private void StartSessionTimer()
+        {
+            remainingTimeInSeconds = sessionTimeInMinutes * 60;
+            timer.Start();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            remainingTimeInSeconds--;
+            if (remainingTimeInSeconds <= 0)
+            {
+                timer.Stop();
+                Application.Current.Shutdown();
+            }
+            else
+            {
+                TimerTextBlock.Text = TimeSpan.FromSeconds(remainingTimeInSeconds).ToString(@"mm\:ss");
+
+                if (remainingTimeInSeconds == 2 * 60) // Оповещение за 2 минуты до конца
+                {
+                    MessageBox.Show("До конца сессии осталось 2 минуты!");
+                }
+                else if (remainingTimeInSeconds == 60) // Блокировка кнопки за 1 минуту до конца
+                {
+                    time.Visibility = Visibility.Hidden;
+                }
+            }
         }
 
         private void regClick(object sender, RoutedEventArgs e)
@@ -120,6 +161,13 @@ namespace ryle
             tovari tovar = new tovari();
             this.Visibility = Visibility.Hidden;
             tovar.Show();
+        }
+
+        private void lvClick(object sender, RoutedEventArgs e)
+        {
+            listviewmerch list = new listviewmerch();
+            Visibility = Visibility.Hidden;
+            list.Show();
         }
     }
 }
